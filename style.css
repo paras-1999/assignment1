@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+ *{
+     font-family:  cursive;
+     text-transform: capitalize;
+     border-radius: 2px;
+ }
+header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color:#04080F;
+    color:ghostwhite;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding:none;
+}
+li{
+    display: inline-block;
+    font-family: Bebas Neue, cursive;
+}
+
+.hlink{
+    text-align: center;
+    border-right: ghostwhite 1px solid;
+    width: fit-content;
+    padding: 15px 5px;
+    font-size: medium;
+    font-weight: lighter;
+    
+}
+#hlinks{
+    margin-left: 48%;
+    border-left: ghostwhite 1px solid;
+}
+a{
+    text-decoration: none;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 2px;
+    color: ghostwhite;
+}
+#intro{
+    width: 100%;
+    height: 500px;
+    background-image: url("images/image1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-top: #04080F 1px solid;
+}
+#introh,#introp{
+    color:ghostwhite;
+    
+    
+   
+}
+#introh{
+    font-family: Bebas Neue, cursive;
+font-size: 40px;
+margin-top: 10%;
+}
+#introp{
+    min-height: fit-content;
+    width: 36%;
+    margin:10px auto;
+    font-family: Share Tech Mono, cursive;
+}
+#bt1,#bt2{
+    padding: 10px;
+    font-size: medium;
+    color: aliceblue;
+    border: none;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Bebas Neue, cursive;
+}
+#bt1{
+
+    background-color: #4CAF50;
+    box-shadow: 0 4px rgb(70, 116, 76);
+}
+#bt2{
+
+    
+    background-color:#0018f5;
+    box-shadow: 0 4px #57A4FF;
+    margin-left: 20px;;
+}
+#articles{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+
+
+}
+#article1{
+    height: 80%;
+    width: 30%;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    padding: 8px;
+}
+#suba{
+    margin-top: 6px;
+    display: flex;
+}
+#subcontext{
+    margin-top: -14px;
+    margin-left: 16px;
+    
+    
+}
+#post{
+    width: 90%;
+    margin:10px auto;
+    height: 165px;
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+    display: flex;
+    
+    
+}
+#subp{
+    display: flex;
+    margin:40px 20px;
+    
+}
+#subpost{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#patnership{
+display: flex;
+height: 100px;
+margin-top: 35px;
+padding: 20px;
+
+}
+footer{
+    height: 200px;
+    background-color:#04080F;
+    margin-top: 10px;
+    display: flex;
+    padding: 15px;
+}
+b{
+    font-size: medium;
+    color: mintcream;
+}
+
+td{
+    margin-left: 15px;
+    width: 20%;
+    font-size: smaller;
+    color: lightslategray;
+
+}
+#foot{
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+   
+}
+#patnership>img{
+    width:20%;
+}
+@media screen and (max-width:1054px) {
+    #hlinks{
+        margin-left: 40%;
+    }
+    #i2{
+        display: none;
+    }
+    #patnership>img{
+        width:25%
+    }
+    
+}
+@media screen and (max-width:1069px) {
+    #subpost{
+        margin-top: 0px;
+    }
+    #hlinks{
+        margin-left: 38%;
+    }
+    
+}
+@media screen and (max-width:918px) {
+    #hlinks{
+        margin-left: 35%;
+    }
+    h4{
+        font-size: 12px;
+    }
+    #i4{
+        display: none;
+    }
+    #patnership>img{
+        width:33%;
+    }
+    
+}
+@media screen and (max-width:1054px) {
+    #hlinks{
+        margin-left: 30%;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    #hlinks{
+        margin-left: 25%;
+    }
+    h3{
+        font-size: 15px;
+    }
+    #i3{
+        display: none;
+    }
+    #patnership>img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:756px) {
+    #hlinks{
+        display: none;
+    }
+    #articles{
+        display: block;
+        height: fit-content;
+    }
+    #article1{
+        width: 100%;
+    }
+    #post{
+        display: none;
+    }
+    footer>table{
+        display: none;
+    }
+    #foot{
+        margin:10px auto;
+        width: 100%;
+        text-align: center;
+    }
+    #foot>img{
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    #i5{
+        display: none;
+    }
+    #patnership>img{
+        width:100%
+    }
+ 
+   
+}
+.hlink:hover, #hlinks:hover{
+    border:tomato 2px solid;
+    
+}
+a:hover{
+    color:tomato;
+}
+#bt1:hover{
+    background-color: whitesmoke;
+    color:#4CAF50 ;
+
+}
+#bt2:hover{
+    background-color: whitesmoke;
+    color:#0018f5 ;
+
+}
+#article1:hover{
+    box-shadow: 0 4px 8px 0 rgb(144, 216, 238), 0 6px 20px 0 rgb(144, 216, 238);
+
+}
+td:hover{
+    color: whitesmoke;
+}
+/* login page css */
+
+#area{
+    height:84vh;
+    padding: 20px;
+    width: 90%;
+    background-image: url("images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+#loginheading{
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: Bebas Neue, cursive;
+    
+    
+}
+#signinheading{
+    color: white;
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-family: Bebas Neue, cursive;
+    
+    
+}
+#qoute{
+    width: 352px;
+    min-height: fit-content;
+    color: white;
+    margin-left: 80px;
+    font-family: Share Tech Mono, cursive;
+    
+}
+#log{
+    width:40%;
+    height:83vh;
+    background-color: white;
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    margin-top: -344px;
+    text-align: center;
+    padding: 10px;
+    box-sizing:border-box;
+}
+input{
+    height: 40px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Share Tech Mono, cursive;
+
+}
+input[type=submit]{
+    background-color: black;
+    color:white;
+}
+#log>form>a{
+    color: black;
+}
+
+@media screen and (max-width:880px) {
+     #log{
+        float:none;
+        margin:0px;
+        width:100%;
+        height:fit-content;
+    }
+
+    #loginheading{
+         width:100%;
+         margin:5px;
+         text-align:center;
+     }
+     
+     #qoute{
+        display: none;
+     }
+     input{
+         
+         font-size: medium;
+     }
+     input[type=submit]{
+        border-radius: 40px;
+     }
+     #signinheading{
+        width:100%;
+        margin:0px;
+        text-align:center;
+        font-size: medium;
+    }
+    
+ }
